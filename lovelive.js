@@ -20,8 +20,10 @@ var startFlag = false;
 
 var xpos = new Array(); //弾の水平位置
 var ypos = new Array(); //弾の垂直位置
-var xspeed = new Array(0,1,1.5,1,0,-1,-1.5,-1); //弾のスピード
-var yspeed = new Array(1.5,1,0,-1,-1.5,-1,0,1); //弾のスピード
+var xspeed = 
+new Array(0,6,7.5,6,0,-6,-7.5,-6); //弾のスピード
+var yspeed = 
+new Array(6.5,7,0,-6,-7.5,-6,0,7); //弾のスピード
 var size = new Array(); 
 var time = new Array();
 
